@@ -15,4 +15,7 @@ python main.py <"accuracy"/"motif"> <"cross-validation"/"straightforward"> <"sim
 Inputs:
 * <"accuracy"/"motif">
   * "accuracy"- The ROC curves of the best model and the average AUC score.
-  * "motif"- 
+  * "motif"- Train and save the model for motif extraction step.
+* <"cross-validation"/"straightforward">- type of training
+  * "cross-validation"- 10-fold cross validation.
+  * "straightforward"
