@@ -36,7 +36,7 @@ Inputs:
 Output:
 
 * "accuracy" Outputs stored in images/
-  * .png - ROC curve graph.
+  * .png - ROC curve graph
  
 * "motif" Outputs stored in images/ and models/
   * .png - ROC curve graph
