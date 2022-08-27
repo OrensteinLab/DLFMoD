@@ -16,6 +16,19 @@ Inputs:
 * <"accuracy"/"motif">
   * "accuracy"- The ROC curves of the best model and the average AUC score.
   * "motif"- Train and save the model for motif extraction step.
+  
 * <"cross-validation"/"straightforward">- type of training
   * "cross-validation"- 10-fold cross validation.
   * "straightforward"
+  
+* <"simpleConvModel">- Architecture name.
+
+* <"enhancer">- Data type.
+
+* Model Hyperparameters:
+ * <32>- Pooling size
+ * <2048>- Number of Filters
+ * <12>- Filter size
+ * <1024>- Batch size
+ * <"adam">- Optimization algorithm
+ * <20>- Number of epochs
