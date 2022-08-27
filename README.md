@@ -7,3 +7,6 @@ Requirements:
 * keras version 2.1.6
 * numpy version 1.17.4
 * scikit-learn 0.22
+
+Command line for training the model:
+python main.py <"accuracy"/"motif"> <"cross-validation"/"straightforward"> <"simpleConvModel"> <"enhancer"> <32> <2048> <12> <1024> <"adam"> <20>
