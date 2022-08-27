@@ -16,7 +16,7 @@ import numpy as np
 from hyperopt import hp
 from hyperopt.pyll.stochastic import sample
 from prepare_data import DataPreparation
-from train import CrossValidationTraining, StraightforwardTraining, PlotStatistics
+from utilities import CrossValidationTraining, StraightforwardTraining, PlotStatistics
 
 root_dir = os.getcwd()
 os.listdir(root_dir)
