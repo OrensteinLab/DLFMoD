@@ -43,4 +43,4 @@ Output:
   * .hdf5 - Model weights
   * .json - Trained model
 
-Note- You need to add empty folders named models and images to the main folder.
+Note- You need to add empty folders named "models" and "images" to the main folder.
