@@ -26,19 +26,19 @@ Inputs:
 * <"enhancer"> - Data type.
 
 * Model Hyperparameters:
- * <32> - Pooling size
- * <2048> - Number of Filters
- * <12> - Filter size
- * <1024> - Batch size
- * <"adam"> - Optimization algorithm
- * <20> - Number of epochs
+  * <32> - Pooling size
+  * <2048> - Number of Filters
+  * <12> - Filter size
+  * <1024> - Batch size
+  * <"adam"> - Optimization algorithm
+  * <20> - Number of epochs
 
 Output:
 
 * "accuracy" Outputs stored in images/
- * .png - ROC curve graph.
+  * .png - ROC curve graph.
  
 * "motif" Outputs stored in images/ and models/
- * .png - ROC curve graph
- * .hdf5 - Model weights
- * .json - Trained model
+  * .png - ROC curve graph
+  * .hdf5 - Model weights
+  * .json - Trained model
